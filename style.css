@@ -1,0 +1,33 @@
+
+body
+{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.card-container
+{
+    width: 18rem;
+   margin-top: 50px;
+  
+  
+}
+.card
+{
+    padding: 15px;
+   border-radius: 15px;
+}
+.card-img-top {
+    border-radius: 15px 15px 0 0; /* Apply border-radius only to the top corners */
+  }
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    .card-container {
+      width: 90%;
+    }
+  }
